@@ -1,0 +1,206 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.header_img{
+height: 50px;
+/*
+background-image: url('images/bg.jpg');
+background-image: url('images/ok.jpg');
+
+background-position: bottom left;
+background-repeat: no-repeat;  */
+    background-color: rgba(22, 23, 23, 0.58);
+width: 90%;
+	 
+     font:tahoma;
+    font-size: 28px;
+    font-weight: bold;
+  color: orange;
+  margin: 10px 5% 5px 5%;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   text-align: center;
+   padding-top:5px;
+    margin-bottom: 20px;  
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.header_img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding-left: 5px;
+    float: left;
+}
+.menu img{
+
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    border-radius: 100%;
+    float: left;
+}
+.menu{
+  background-color: #1e8ca0;
+    height: 35px;
+   width: 90%;
+  padding-top: -10px; 
+    border-radius: 5px;
+    padding: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+    }
+.menu ul{
+direction: rtl;
+list-style: none;
+
+}
+.menu>ul>li{
+
+  width: 150px;
+  border: 1px solid white;
+  height: 35px;
+  
+  text-align: center;
+  float: right;
+    
+
+}
+.menu a{
+  text-decoration: none;
+   color: white;
+    font-size: 22px; 
+}
+.menu ul ul{
+  padding-top: 7px;
+  display: none;
+  position: absolute;
+  width: 150px;
+}
+.menu li li{
+  background:  #1e8ca0;
+  border:.5px solid white;
+}
+
+.menu ul  a:hover{
+    color: white;
+    
+}
+.menu  ul li:hover {
+    background-color:orange;
+    border-radius: 5px; 
+
+}
+.menu  ul li:hover >ul{
+  display: block; 
+
+}
+a:hover,a:active{
+    color: brown;
+}
+
+
+.body{
+  background-image: url('images/bg1.jpg');
+    width: 90%;
+  margin-right: 5%;
+    margin-left: 5%;
+    
+}
+footer{
+    margin:50% 5% auto 5%;
+    background-color: #1e8ca0;
+    text-align: center;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+/* 600px and min
+@media screen and (max-width: 600px)  
+*/
+
+@media screen and (min-width: 200px)  and (max-width: 950px) {
+
+  .header_img{
+    width:400px;
+    margin-left: 0px; 
+  }
+  .menu ul li{
+
+  width: 400px;
+  border: 1px solid white;
+  height: 35px;
+  text-align: center;
+  float: none; 
+
+}
+
+
+.menu{
+  
+    height: 300px;
+    width: 400px; 
+    margin-bottom: 200px;
+}
+    
+     .menu  ul li:hover ul>li{
+        text-align: center;
+        width: 200px;
+        }
+        .menu  ul li ul li:hover {
+    background-color:orange;
+    border-radius: 5px; 
+    width: 200px;
+
+}
+footer{
+  width: 400px;
+  margin-left: 0px;
+
+}
+ 
+/*                      input form*/ 
+.inputform{
+  color: green;
+  background-color: red;
+}     
+    
+    .header_img{
+
+  
+  width: 80%;
+    
+    margin-right: 10%;
+    margin-left: 10%;
+}
+}
+
+
+.setting{
+    
+    background-image: url(images/setting1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    direction: rtl;
+    font-size: 18px;
+ 
+    
+}
+.rcolor{
+    color: red;
+    text-align: center;
+    
+    font-size: 18;
+}
+.log_txt{
+    font-size: 18px;
+    text-align: center;   
+}
+.log_txt a{
+    font-size: 18px;
+    text-align: center;   
+}

@@ -1,0 +1,126 @@
+
+
+form{
+	line-height: 50px;
+	direction:  rtl;
+	font-size: 20px;
+   
+
+}
+.login_info{
+    background-color:#4c5858; 
+    height: auto;
+    color: white;
+   font-weight: bold;
+    height: 300px;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border-radius: 20px;
+    border-style: ridge;
+    border-width: 10px ;
+    border-color: white;
+    float: right;
+    opacity: .8;
+    
+}
+.login_img{
+
+    width: 25%;
+    height: 250px;
+    
+    background-image: url(..//images/user1.jpg);
+    background-image: image("..//images/user1.jpg");
+    background-repeat: no-repeat;
+    float: left;
+}
+fieldset{
+	
+	border-color: #05090a;
+    padding-right: 2%;
+    width: auto;
+    margin-right:5%;
+    margin-left:5%;
+}
+legend{
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.add{
+    color: green;
+    text-align: right;
+    
+    font-size: 20px;
+}
+.r_color{
+    color: red;
+    text-align: center;
+    direction: rtl;
+    font-size: 18px;
+}
+.g_color{
+    color: green;
+    text-align: center;
+    direction: rtl;
+    font-size: 18px;
+}
+input{
+
+}
+.bt{
+    font-size: 14px;
+    margin-right: 100px;
+    
+}
+input.text{
+      width: 50%;
+    padding-right: 50px;
+    height:25px;
+}
+.form .bt{
+    width: 20%
+    
+}
+input:focus{
+border-style: groove;
+border-color: orange; 
+}
+
+
+.datetime{
+    font-size: 22px;
+    font-style: bold;
+    color: #0f5c6a;
+    font-family: Bahnschrift;
+
+    
+}
+.info{
+    width: 100%;
+    height: 1500px;
+    
+}
+@media screen and (min-width: 200px)  and (max-width: 950px) {
+
+  .login_info{
+}
+   .login_img{
+       margin-top: auto;
+}
+    fieldset{
+    margin-top:auto;
+ height: auto;
+    
+}
+    input.text{
+      width: 60%;
+    padding-right: 2%;
+}
+.bt{
+    font-size: 14px;
+    margin-right: 20%;
+    
+}
+}
+
